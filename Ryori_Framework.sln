@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00. Client", "00. Client", "{C84BE6D3-56E4-4C65-8A1B-A77AC4AC672D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Client", "Client\Default\Client.vcproj", "{C3E749D6-AD1C-4876-B394-4D93F4BB858A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Engine", "01. Engine", "{49B3B048-6AC1-42C5-A779-A87ED86FCD8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. SuperClass", "02. SuperClass", "{F098F496-A05B-455B-9985-18D5D7D56E69}"
+	ProjectSection(SolutionItems) = preProject
+		SuperClass\Base.h = SuperClass\Base.h
+		SuperClass\Base.inl = SuperClass\Base.inl
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "System", "Engine\System\Default\System.vcproj", "{D1248E39-E73B-4182-8119-989824052E6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00. System", "00. System", "{1AAED8FE-6681-43DF-9433-1C62A3979A89}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Utility", "01. Utility", "{A4D85D65-40FB-46CA-83F3-6DA20EE51730}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "98. Headers", "98. Headers", "{FF5AD2F4-95D2-4EE8-B081-4DB392FC7664}"
+	ProjectSection(SolutionItems) = preProject
+		Engine\Headers\Engine_Constant.h = Engine\Headers\Engine_Constant.h
+		Engine\Headers\Engine_Defines.h = Engine\Headers\Engine_Defines.h
+		Engine\Headers\Engine_Function.h = Engine\Headers\Engine_Function.h
+		Engine\Headers\Engine_Functor.h = Engine\Headers\Engine_Functor.h
+		Engine\Headers\Engine_Macro.h = Engine\Headers\Engine_Macro.h
+		Engine\Headers\Engine_Struct.h = Engine\Headers\Engine_Struct.h
+		Engine\Headers\Engine_Typedef.h = Engine\Headers\Engine_Typedef.h
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Utility", "Engine\Utility\Default\Utility.vcproj", "{E48DA366-95F0-403F-A2BE-A8B153656CBF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "99. Export", "99. Export", "{B4D5536B-FB06-4755-BEF1-049EABBD8718}"
+	ProjectSection(SolutionItems) = preProject
+		Engine\Exports\Export_Engine.h = Engine\Exports\Export_Engine.h
+		Engine\Exports\Export_MyFunction.inl = Engine\Exports\Export_MyFunction.inl
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Tool", "03. Tool", "{A61E40DE-36F1-44BC-B4E0-D1CA53FD39B1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tool", "Tool\Tool.vcproj", "{8A452B18-280C-4AA5-8933-670F1B1FCF6E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3E749D6-AD1C-4876-B394-4D93F4BB858A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C3E749D6-AD1C-4876-B394-4D93F4BB858A}.Debug|Win32.Build.0 = Debug|Win32
+		{C3E749D6-AD1C-4876-B394-4D93F4BB858A}.Release|Win32.ActiveCfg = Release|Win32
+		{C3E749D6-AD1C-4876-B394-4D93F4BB858A}.Release|Win32.Build.0 = Release|Win32
+		{D1248E39-E73B-4182-8119-989824052E6C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D1248E39-E73B-4182-8119-989824052E6C}.Debug|Win32.Build.0 = Debug|Win32
+		{D1248E39-E73B-4182-8119-989824052E6C}.Release|Win32.ActiveCfg = Release|Win32
+		{D1248E39-E73B-4182-8119-989824052E6C}.Release|Win32.Build.0 = Release|Win32
+		{E48DA366-95F0-403F-A2BE-A8B153656CBF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E48DA366-95F0-403F-A2BE-A8B153656CBF}.Debug|Win32.Build.0 = Debug|Win32
+		{E48DA366-95F0-403F-A2BE-A8B153656CBF}.Release|Win32.ActiveCfg = Release|Win32
+		{E48DA366-95F0-403F-A2BE-A8B153656CBF}.Release|Win32.Build.0 = Release|Win32
+		{8A452B18-280C-4AA5-8933-670F1B1FCF6E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8A452B18-280C-4AA5-8933-670F1B1FCF6E}.Debug|Win32.Build.0 = Debug|Win32
+		{8A452B18-280C-4AA5-8933-670F1B1FCF6E}.Release|Win32.ActiveCfg = Release|Win32
+		{8A452B18-280C-4AA5-8933-670F1B1FCF6E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C3E749D6-AD1C-4876-B394-4D93F4BB858A} = {C84BE6D3-56E4-4C65-8A1B-A77AC4AC672D}
+		{1AAED8FE-6681-43DF-9433-1C62A3979A89} = {49B3B048-6AC1-42C5-A779-A87ED86FCD8A}
+		{A4D85D65-40FB-46CA-83F3-6DA20EE51730} = {49B3B048-6AC1-42C5-A779-A87ED86FCD8A}
+		{FF5AD2F4-95D2-4EE8-B081-4DB392FC7664} = {49B3B048-6AC1-42C5-A779-A87ED86FCD8A}
+		{B4D5536B-FB06-4755-BEF1-049EABBD8718} = {49B3B048-6AC1-42C5-A779-A87ED86FCD8A}
+		{D1248E39-E73B-4182-8119-989824052E6C} = {1AAED8FE-6681-43DF-9433-1C62A3979A89}
+		{E48DA366-95F0-403F-A2BE-A8B153656CBF} = {A4D85D65-40FB-46CA-83F3-6DA20EE51730}
+		{8A452B18-280C-4AA5-8933-670F1B1FCF6E} = {A61E40DE-36F1-44BC-B4E0-D1CA53FD39B1}
+	EndGlobalSection
+EndGlobal

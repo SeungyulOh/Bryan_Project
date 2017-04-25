@@ -1,0 +1,21 @@
+0. BattleIdle
+1. BattleRun
+2. BattleAttack1
+3. BattleAttack2
+4. BattleAttack3
+5. BattleAttack4
+
+d-f
+d-b
+d-l
+d-r
+
+atk3 strong
+atk3 strong after
+atk3 strong during
+atk3 strong after
+
+atk4 strong
+atk4 strong after
+atk4 strong during
+atk4 strong after
